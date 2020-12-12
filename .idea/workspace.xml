@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="update all">
+      <change beforePath="$PROJECT_DIR$/src/components/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toc.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lRjtglR6kckCC6uxtxOU8vEU9g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WEB" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="" />
+      <created>1607567018491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607567018491</updated>
+      <workItem from="1607567022334" duration="12000" />
+      <workItem from="1607735754015" duration="8846000" />
+      <workItem from="1607748109428" duration="988000" />
+      <workItem from="1607749407092" duration="111000" />
+      <workItem from="1607756767100" duration="1746000" />
+      <workItem from="1607771872923" duration="3530000" />
+      <workItem from="1607785418981" duration="4996000" />
+    </task>
+    <task id="LOCAL-00001" summary="react component 파일 분할">
+      <created>1607757835136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607757835136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="STATE KEY">
+      <created>1607772490441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607772490441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="react component 파일 분할" />
+    <MESSAGE value="STATE KEY" />
+    <option name="LAST_COMMIT_MESSAGE" value="STATE KEY" />
+  </component>
+</project>
