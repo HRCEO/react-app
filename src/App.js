@@ -3,6 +3,7 @@ import './App.css';
 import TOC from "./components/toc.js"
 import Subject from "./components/subject.js"
 import Content from "./components/content.js"
+import {whenInput} from "web-vitals/dist/lib/whenInput";
 
 class App extends Component{
     constructor(props) {
@@ -20,7 +21,6 @@ class App extends Component{
         }
     }
   render(){
-    console.log('App.render')
     var _title, _desc = 'NULL';
     if(this.state.mode === 'welcome'){
         _title = this.state.welcome.title;
@@ -28,15 +28,17 @@ class App extends Component{
     }
     else if(this.state.mode === 'read'){
         var i =0;
-        while(i<this.state.contents.length)
+        while( i < this.state.contents.length)
         {
+            debugger
             var data = this.state.contents[i];
             if(data.id === this.state.selected_content_id) {
-                console.log(this)
+                debugger
                 _title = data.title;
                 _desc = data.desc;
                 break;
             }
+            i =  i + 1
         }
     }
     return(

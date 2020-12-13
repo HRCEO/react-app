@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="update all">
+    <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="Compornumt change Evt">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toc.js" afterDir="false" />
     </list>
@@ -20,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1lRjtglR6kckCC6uxtxOU8vEU9g" />
   <component name="ProjectViewState">
@@ -49,7 +53,9 @@
       <workItem from="1607749407092" duration="111000" />
       <workItem from="1607756767100" duration="1746000" />
       <workItem from="1607771872923" duration="3530000" />
-      <workItem from="1607785418981" duration="4996000" />
+      <workItem from="1607785418981" duration="5268000" />
+      <workItem from="1607790846935" duration="310000" />
+      <workItem from="1607840197815" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="react component 파일 분할">
       <created>1607757835136</created>
@@ -65,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607772490441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Compornumt change Evt">
+      <created>1607790526194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607790526194</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Compornumt change Evt">
+      <created>1607790642449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607790642449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,7 +96,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -86,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react component 파일 분할" />
     <MESSAGE value="STATE KEY" />
-    <option name="LAST_COMMIT_MESSAGE" value="STATE KEY" />
+    <MESSAGE value="Compornumt change Evt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compornumt change Evt" />
   </component>
 </project>

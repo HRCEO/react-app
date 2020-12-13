@@ -5,19 +5,17 @@ class TOC extends Component{
         var lists=[]
         var data = this.props.data
         var i =0;
-        console.log(data)
         while(i < data.length)
         {
             lists.push(<li key={data[i].id}>
                 <a
                     href={"/content/"+data[i].id}
-                    data-id = {data[i].id}
+                    data-id={data[i].id}
                     onClick={function (evt){
-                       evt.preventDefault();
-                       this.props.onChangePage(evt.target.dataset.id);
+                        evt.preventDefault();
+                        this.props.onChangePage(evt.target.dataset.id)
                     }.bind(this)}
-                >{data[i].title}
-                </a></li>)
+                >{data[i].title}</a></li>)
             i = i+1;
         }
         return(
