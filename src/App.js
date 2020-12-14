@@ -4,7 +4,7 @@ import TOC from "./components/toc.js"
 import Subject from "./components/subject.js"
 import ReadContent from "./components/content.js"
 import Control from "./components/Control.js";
-import createContent from "./components/createContent";
+import CreateContent from "./components/createContent";
 import {whenInput} from "web-vitals/dist/lib/whenInput";
 
 class App extends Component{
@@ -45,9 +45,8 @@ class App extends Component{
         _article = <ReadContent title={_title} desc={_desc}></ReadContent>
     }
     else if(this.state.mode === 'create'){
-        _article = <createContent onSubmit={function (_title,_desc){
+        _article = <CreateContent onSubmit={function (_title,_desc){
             this.max_content_id = this.max_content_id +1;
-
 
             //Array Data input control
             //Origin Data Change ! push (원본 데이터 배열에 값을 넣어 줌)
@@ -55,7 +54,6 @@ class App extends Component{
             // this.starte.contents.push(
             //     {id:this.max_content_id, title:_title, desc:_desc}
             // );
-
             // 기존의 배열 데이터에 값을 추가하는것은 아니다. (원본을 안 건듬)
             var _contents = this.state.contents.concat(
                 {id:this.max_content_id, title:_title, desc:_desc}
@@ -63,15 +61,9 @@ class App extends Component{
             this.setState({
                 contents:_contents
             });
-
-
-
-
-
-
         }.bind(this)}>
 
-        </createContent>
+        </CreateContent>
     }
     return(
         <div className="App">
@@ -97,7 +89,6 @@ class App extends Component{
                       this.setState({
                           mode:mode
                       })
-
                   }.bind(this)}>
                   </Control>
                   {_article}
