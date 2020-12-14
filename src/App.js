@@ -54,15 +54,38 @@ class App extends Component{
             // this.starte.contents.push(
             //     {id:this.max_content_id, title:_title, desc:_desc}
             // );
-            // 기존의 배열 데이터에 값을 추가하는것은 아니다. (원본을 안 건듬)
-            var _contents = this.state.contents.concat(
-                {id:this.max_content_id, title:_title, desc:_desc}
-            )
+
+            // // 기존의 배열 데이터에 값을 추가하는것은 아니다. (원본을 안 건듬)  #2
+            // var _contents = this.state.contents.concat(
+            //     {id:this.max_content_id, title:_title, desc:_desc}
+            // )
+            // this.setState({
+            //     contents:_contents
+            // });
+
+            /*
+            원본의 값을 수정하지 않고 배열 의 값을 변경 할때
+
+            Array.from()
+
+            원본의 값을 수정하지 않고 객체 의 값을 변경 할때
+
+            Object.assign()
+
+            Immutable.js : 유사배열, 유사객체 사용시 사용되는 라이브러리
+
+           */
+
+            // 기존 배열 값을 안건듬, shouldComponentUpdate 사용시 사용
+            var newContents = Array.from(this.state.contents);
+            newContents.push({
+                id:this.max_content_id,
+                title: _title, desc:_desc
+            })
             this.setState({
-                contents:_contents
+                contents:newContents
             });
         }.bind(this)}>
-
         </CreateContent>
     }
     return(

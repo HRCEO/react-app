@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/createContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/createContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,8 @@
       <workItem from="1607790846935" duration="310000" />
       <workItem from="1607840197815" duration="5865000" />
       <workItem from="1607905339783" duration="3822000" />
-      <workItem from="1607915556216" duration="3688000" />
+      <workItem from="1607915556216" duration="4034000" />
+      <workItem from="1607921203214" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="react component 파일 분할">
       <created>1607757835136</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607841789414</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Compornumt change Evt">
+      <created>1607919289811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607919289811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +122,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
