@@ -2,14 +2,17 @@ import React, { Component } from 'react'
 import './App.css';
 import TOC from "./components/toc.js"
 import Subject from "./components/subject.js"
-import Content from "./components/content.js"
+import ReadContent from "./components/content.js"
+import Control from "./components/Control.js";
+import createContent from "./components/createContent";
 import {whenInput} from "web-vitals/dist/lib/whenInput";
 
 class App extends Component{
     constructor(props) {
         super(props);
+        this.max_content_id = 3;
         this.state ={
-            mode:'read',
+            mode:'create',
             selected_content_id:2,
             subject:{title:'WEB', sub:'World Wid Web!'},
             welcome:{title:'Welcome', desc:'Hello, React!!'},
@@ -21,25 +24,54 @@ class App extends Component{
         }
     }
   render(){
-    var _title, _desc = 'NULL';
+    var _title, _desc, _article = 'NULL';
     if(this.state.mode === 'welcome'){
         _title = this.state.welcome.title;
         _desc = this.state.welcome.desc;
+        _article = <ReadContent title={_title} desc={_desc}></ReadContent>
     }
     else if(this.state.mode === 'read'){
         var i =0;
         while( i < this.state.contents.length)
         {
-            debugger
             var data = this.state.contents[i];
             if(data.id === this.state.selected_content_id) {
-                debugger
                 _title = data.title;
                 _desc = data.desc;
                 break;
             }
             i =  i + 1
         }
+        _article = <ReadContent title={_title} desc={_desc}></ReadContent>
+    }
+    else if(this.state.mode === 'create'){
+        _article = <createContent onSubmit={function (_title,_desc){
+            this.max_content_id = this.max_content_id +1;
+
+
+            //Array Data input control
+            //Origin Data Change ! push (원본 데이터 배열에 값을 넣어 줌)
+            //즉 원본 이 바뀌면채 가장위의 constructor 가 변경됨으로, rander가 재 시작 됨으로 관계없는 버튼이 눌릴때도 모두다 재 호출 된다.
+            // this.starte.contents.push(
+            //     {id:this.max_content_id, title:_title, desc:_desc}
+            // );
+
+            // 기존의 배열 데이터에 값을 추가하는것은 아니다. (원본을 안 건듬)
+            var _contents = this.state.contents.concat(
+                {id:this.max_content_id, title:_title, desc:_desc}
+            )
+            this.setState({
+                contents:_contents
+            });
+
+
+
+
+
+
+        }.bind(this)}>
+
+        </createContent>
     }
     return(
         <div className="App">
@@ -60,53 +92,19 @@ class App extends Component{
                       }
                       data={this.state.contents}>
                   </TOC>
-                  <Content
-                      title={_title} desc={_desc}>
-                  </Content>
+                  <Control
+                      onChangeMode={function (mode){
+                      this.setState({
+                          mode:mode
+                      })
+
+                  }.bind(this)}>
+                  </Control>
+                  {_article}
         </div>
     );
   }
 }
 
 export default App;
-
-// {/*<header>*/}
-// {/*    <h1><a href="" onClick={function (evt){*/}
-// {/*        evt.preventDefault()*/}
-// {/*        //this.state.mode = 'welcome'; //this가 아무도 가르키지 않는다. 함수가 끝나는 부분에 .bind(this)를 넣어 주어야 한다.*/}
-// {/*        this.setState({*/}
-// {/*            mode:'welcome'*/}
-// {/*        })*/}
-// {/*    }.bind(this)}>*/}
-// {/*        {this.state.subject.title}</a></h1>*/}
-// {/*    {this.state.subject.sub}*/}
-// {/*</header>*/}
-
-
-// import logo from './logo.svg';
-// import './App.css';
-//
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-//
-// export default App;
-
 

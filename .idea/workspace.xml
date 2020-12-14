@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="Compornumt change Evt">
+      <change afterPath="$PROJECT_DIR$/src/components/Control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/createContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WEB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\개발\Git\react-app\src\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +62,8 @@
       <workItem from="1607771872923" duration="3530000" />
       <workItem from="1607785418981" duration="5268000" />
       <workItem from="1607790846935" duration="310000" />
-      <workItem from="1607840197815" duration="1543000" />
+      <workItem from="1607840197815" duration="5865000" />
+      <workItem from="1607905339783" duration="3822000" />
     </task>
     <task id="LOCAL-00001" summary="react component 파일 분할">
       <created>1607757835136</created>
@@ -85,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607790642449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Compornumt change Evt">
+      <created>1607841789414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607841789414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
