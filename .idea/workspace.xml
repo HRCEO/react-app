@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="Compornumt change Evt">
+    <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="Array.from() :  Object.assign()">
+      <change afterPath="$PROJECT_DIR$/src/components/updateContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
@@ -39,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\3.VEC\0.Work\3.Smart_Strawbrry\Web_make\Back\react-app\src\components" />
       <recent name="D:\개발\Git\react-app\src\components" />
     </key>
   </component>
@@ -61,7 +63,7 @@
       <workItem from="1607840197815" duration="5865000" />
       <workItem from="1607905339783" duration="3822000" />
       <workItem from="1607915556216" duration="4034000" />
-      <workItem from="1607921203214" duration="383000" />
+      <workItem from="1607921203214" duration="4174000" />
     </task>
     <task id="LOCAL-00001" summary="react component 파일 분할">
       <created>1607757835136</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607919289811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Array.from() :  Object.assign()">
+      <created>1607921703475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607921703476</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="react component 파일 분할" />
     <MESSAGE value="STATE KEY" />
     <MESSAGE value="Compornumt change Evt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compornumt change Evt" />
+    <MESSAGE value="Array.from() :  Object.assign()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array.from() :  Object.assign()" />
   </component>
 </project>
