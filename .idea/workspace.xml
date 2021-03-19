@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7a8419-70e1-4575-8fdd-13cd421c0997" name="Default Changelist" comment="Array.from() :  Object.assign()">
-      <change afterPath="$PROJECT_DIR$/src/components/updateContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -64,6 +62,8 @@
       <workItem from="1607905339783" duration="3822000" />
       <workItem from="1607915556216" duration="4034000" />
       <workItem from="1607921203214" duration="4174000" />
+      <workItem from="1611284806125" duration="55000" />
+      <workItem from="1616148872040" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="react component 파일 분할">
       <created>1607757835136</created>
